@@ -44,7 +44,7 @@ namespace WordSmash
                 Console.Write(arrayFirst[loop]);
             }
 
-            for (int loop = arraySecondHalf; loop < (arraySecondHalf + 1); loop++)
+            for (int loop = arraySecondHalf; loop < (arraySecond.Length); loop++)
             {
                 Console.Write(arraySecond[loop]);
             }
